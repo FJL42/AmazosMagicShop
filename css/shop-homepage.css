@@ -1,0 +1,132 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/templates/shop-homepage)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+body {
+  background: url('../images/istockphoto.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.list-group-item{
+  color: black;
+  font-size: 18px;
+  font-weight: bold
+
+}
+
+.jumbotron {
+  
+  margin: 0;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.header {
+  background-color: red;
+  margin: 0;
+  padding: 1px; 
+}
+
+.navbar{
+  background-color: #a31208;
+}
+
+.nav-link{
+  color: white;
+}
+
+.navbar-brand{
+  color: white;
+}
+
+.list-group-item{
+  background-color: #a31208;
+  color: white;
+}
+#site-footer{
+  background:#a31208;
+}
+
+@media (min-width: 768px) {
+  .carousel-multi-item-2 .col-md-3 {
+  float: left;
+  width: 25%;
+  max-width: 100%; } }
+  
+  .carousel-multi-item-2 .card img {
+  border-radius: 2px; }
+
+
+
+  .gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 30px auto;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+/* Styles for the gallery */
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .thumbnail {
+    padding: 0;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.tz-gallery img {
+    border-radius: 2px;
+}
+
+.tz-gallery .caption{
+    padding: 26px 30px;
+    text-align: center;
+    color: white;
+}
+
+.tz-gallery .caption h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.tz-gallery .caption p {
+    font-size: 12px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+.image-aboutus-banner {
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/magic.jpg");
+  background-repeat: no-repeat;
+  background-size: 1300px 425px;
+  background-position: center top;
+  color: #fff;
+  padding-top: 170px;
+  padding-bottom:150px;
+  background-color: rgb(59, 56, 56);
+}
+ 
+
+
+ 

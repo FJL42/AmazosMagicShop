@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Shop Homepage - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/shop-homepage.css" rel="stylesheet">
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+
+</head>
+
+<body>
+  <header class="jumbotron">
+    <div class="container">
+          <img src="../images/magic-banner.jpg" class="img-fluid" />
+    </div>
+  </header>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg bg-custom">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Mr. Amazo's Magic Shop</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="photogallery.html">Photo Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+
+  <div class="container my-4">
+
+    <img src="../images/mail.jpg" class="img-fluid" alt="Responsive image">
+
+    <!--Card-->
+    <div class="card">
+
+      <!--Card content-->
+      <div class="card-body bg-dark text-white">
+
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact
+          us directly. Our team will come back to you within
+          a matter of hours to help you.</p>
+
+        <div class="row">
+
+          <!--Grid column-->
+          <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+              <!--Grid row-->
+              <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input type="text" id="name" name="name" class="form-control">
+                    <label for="name" class="">Your name</label>
+                  </div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input type="text" id="email" name="email" class="form-control">
+                    <label for="email" class="">Your email</label>
+                  </div>
+                </div>
+                <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form mb-0">
+                    <input type="text" id="subject" name="subject" class="form-control">
+                    <label for="subject" class="">Subject</label>
+                  </div>
+                </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-12">
+
+                  <div class="md-form">
+                    <textarea type="text" id="message" name="message" rows="2"
+                      class="form-control md-textarea"></textarea>
+                    <label for="message">Your message</label>
+                  </div>
+
+                </div>
+              </div>
+              <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+              <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                <p>Salam, NY 12865, USA</p>
+              </li>
+
+              <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                <p>+ 01 234 567 89</p>
+              </li>
+
+              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                <p>contact@mramazo.com</p>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+        </div>
+
+      </div>
+
+    </div>
+    <!--/.Card-->
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer" id="site-footer">
+    <div class="container">
+      <div class="row">
+          <div class="col-4 col-sm-2 text-white">
+              <h5>Links</h5>
+              <ul class="list-unstyled">
+                  <li><a class="text-white" href="#">Home</a></li>
+                  <li><a class="text-white" href="aboutus.html">About</a></li>
+                  <li><a class="text-white" href="shop.html">Shop</a></li>
+                  <li><a class="text-white" href="contactus.html">Contact</a></li>
+              </ul>
+          </div>
+          <div class="col-6 col-sm-5 text-white text-center">
+              <h5>Social</h5>
+              <a class="btn btn-social-icon text-white btn-lg btn-instagram" href="http://instagram.com/"><i
+                      class="fa fa-instagram"></i></a>
+              <a class="btn btn-social-icon text-white btn-lg btn-facebook" href="http://facebook.com/"><i
+                      class="fa fa-facebook"></i></a>
+              <a class="btn btn-social-icon text-white btn-lg btn-twitter" href="http://twitter.com/"><i
+                      class="fa fa-twitter"></i></a>
+              <a class="btn btn-social-icon text-white btn-lg btn-google" href="http://youtube.com/"><i
+                      class="fa fa-youtube"></i></a>
+          </div>
+          <div class="col-sm-4 text-center">
+              <a role="button" class="btn btn-link text-white" href="tel:+12065551234"><i class="fa fa-phone"></i>
+                  1-206-555-1234</a><br />
+              <a role="button" class="btn btn-link text-white" href="mailto:contact@mramazo.com"><i
+                      class="fa fa-envelope-o"></i> contact@mramazo.com</a>
+          </div>
+      </div>
+  </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script>
+    baguetteBox.run('.tz-gallery');
+  </script>
+</body>
+
+</html>
