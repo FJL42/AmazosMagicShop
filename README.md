@@ -1,0 +1,2 @@
+# AmazosMagicShop
+Just the beginning.
